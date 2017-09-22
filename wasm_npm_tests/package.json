@@ -1,0 +1,18 @@
+{
+  "name": "wasm_npm_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wasm-init": "wasm-init",
+    "compile": "wasm-compile",
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "wasm-init": "0.0.38"
+  }
+}

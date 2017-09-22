@@ -1,0 +1,32 @@
+{
+  "name": "hello_rust",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-c": "node compile.js",
+    "start-c": "./node_modules/.bin/webpack-dev-server --env=wasm",
+    "start-rust": "--env=rust"
+  },
+  "keywords": [
+    "rust",
+    "c",
+    "wasm",
+    "webassembly"
+  ],
+  "author": "D.Bondarenko",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "fs": "0.0.1-security",
+    "http-server": "^0.10.0",
+    "node-fs": "^0.1.7",
+    "rust-wasm-loader": "^0.1.2",
+    "wasm-loader": "^1.1.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
